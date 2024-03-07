@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -14,7 +15,7 @@ export default {
       container: {
         center: true,
         padding: {
-          default: "1rem",
+          DEFAULT: "1rem",
           sm: "3rem",
         },
       },

@@ -1,11 +1,15 @@
 import React from "react";
-import { FaHeadphonesAlt, FaWallet, FaCheckCircle } from "react-icons/fa";
-import { MdLocalShipping } from "react-icons/md";
+import {
+  FaCarSide,
+  FaHeadphonesAlt,
+  FaWallet,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 const ServiceData = [
   {
     id: 1,
-    icon: <MdLocalShipping className="text-4xl md:text-5xl text-primary" />,
+    icon: <FaCarSide className="text-4xl md:text-5xl text-primary" />,
     title: "Free Shipping",
     description: "Free Shipping On All Order",
   },

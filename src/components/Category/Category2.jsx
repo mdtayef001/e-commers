@@ -6,7 +6,7 @@ import Button from "../Shared/Button";
 
 const Category = () => {
   return (
-    <section className="py-8">
+    <div className="py-8">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* First col */}
@@ -16,7 +16,7 @@ const Category = () => {
                 <p className="mb-[2px] text-white">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">
-                  PlayStation 4
+                  Laptop
                 </p>
                 <Button
                   text="Browse"
@@ -38,7 +38,7 @@ const Category = () => {
                 <p className="mb-[2px] text-white">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-20 mb-2">
-                  Virtual Reality
+                  Earphone
                 </p>
                 <Button
                   text="Browse"
@@ -56,7 +56,7 @@ const Category = () => {
                 <p className="mb-[2px] text-white">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">
-                  Speakers
+                  Gadget
                 </p>
                 <Button
                   text="Browse"
@@ -73,7 +73,7 @@ const Category = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
